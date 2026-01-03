@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Adaptive Website</title>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/variables.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/media.css" />
+	</head>
+
+	<body>
+		<header class="site-header">
+			<nav class="language-switcher">
+				<a class="language-switcher__item" href="#">Eng</a>
+				<a class="language-switcher__item" href="#">Ger</a>
+				<a
+					class="language-switcher__item language-switcher__item--active"
+					href="#"
+					class="active"
+				>
+					Укр
+				</a>
+			</nav>
+		</header>
+
+		<div class="container">
+			<section class="page-header">
+				<div class="header__logo">
+					<a href="#" class="logo">
+						<div class="logo__text">Logo</div>
+					</a>
+				</div>
+
+				<nav class="header-links" aria-label="header actions">
+					<div class="header-links__group">
+						<a href="#" class="header-links__item">Lorem ipsum dolor sit</a>
+						<a href="#" class="header-links__item">Lorem ipsum</a>
+					</div>
+
+					<div class="header-links__group">
+						<a href="#" class="header-links__item">Lorem ipsum dolor</a>
+						<a href="#" class="header-links__item active">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+						</a>
+					</div>
+
+					<div class="header-links__group">
+						<a href="#" class="header-links__item">Lorem ipsum dolor</a>
+						<a href="#" class="header-links__item">Lorem ipsum dolor sit</a>
+					</div>
+				</nav>
+			</section>
+
+			<section class="primary-nav">
+				<nav class="main-menu" id="mainMenu">
+					<a href="#" class="main-menu__link">ПУНКТ МЕНЮ</a>
+					<a href="#" class="main-menu__link">ДОВГИЙ ПУНКТ МЕНЮ</a>
+					<a href="#" class="main-menu__link">ДУЖЕ ДОВГИЙ ПУНКТ МЕНЮ</a>
+					<a href="#" class="main-menu__link">ЩЕ ОДИН ПУНКТ</a>
+					<a href="#" class="main-menu__link main-menu__link--active">П. МЕНЮ</a>
+				</nav>
+
+				<div class="menu-toggle-wrap">
+					<button
+						class="burger"
+						id="menuToggle"
+						aria-label="Toggle navigation menu"
+						aria-controls="mainMenu"
+						aria-expanded="false"
+					>
+						<span class="burger__line"></span>
+						<span class="burger__line"></span>
+						<span class="burger__line"></span>
+					</button>
+
+					<div class="toggle-title">Меню</div>
+				</div>
+			</section>
+
+			<section class="section-form">
+				<h2 class="section-title">Form</h2>
+
+				<div class="form-wrapper">
+					<div class="form-container">
+						<form class="contact-form">
+							<div class="contact-form__group">
+								<label class="form-label">Label #1</label>
+								<input type="text" class="contact-form__input" />
+							</div>
+
+							<div class="contact-form__row">
+								<div class="contact-form__group">
+									<label class="form-label">Label #2</label>
+									<input type="text" class="contact-form__input" />
+								</div>
+								<div class="contact-form__group">
+									<label class="form-label">Label #3</label>
+									<input type="text" class="contact-form__input" />
+								</div>
+							</div>
+
+							<div class="contact-form__row">
+								<div class="contact-form__group">
+									<label class="form-label">Label #2</label>
+									<input type="text" class="contact-form__input" />
+								</div>
+								<div class="contact-form__group">
+									<label class="form-label">Label #3</label>
+									<input type="text" class="contact-form__input" />
+								</div>
+							</div>
+
+							<button type="submit" class="submit-btn">SUBMIT</button>
+						</form>
+					</div>
+
+					<div class="content-container">
+						<div class="content-card">
+							<h3 class="content-title">LOREM IPSUM DOLOR SIT</h3>
+							<p class="content-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+								eiusmod tempor incididunt ut labore et
+							</p>
+
+							<p class="content-text">
+								Ut enim ad minim veniam, quis nostrud exercitation
+							</p>
+
+							<a href="#" class="more-link">MORE</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="main-content">
+				<div class="card-list">
+					<div class="card">
+						<div class="card__media"></div>
+						<div class="card__body">
+							<h3>LOREM IPSUM DOLOR SIT</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card__media"></div>
+						<div class="card__body">
+							<h3>LOREM IPSUM</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor
+								incididunt ut labore et dolore.
+							</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card__media"></div>
+						<div class="card__body">
+							<h3>LOREM IPSUM DOLOR</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+								eiusmod tempor Lorem ipsum dolor sit amet.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section grid-section">
+				<div class="grid-container">
+					<div class="grid-item">#9</div>
+					<div class="grid-item">#10</div>
+					<div class="grid-item">#11</div>
+					<div class="grid-item">#12</div>
+					<div class="grid-item">#13</div>
+					<div class="grid-item">#14</div>
+					<div class="grid-item">#15</div>
+					<div class="grid-item">#16</div>
+					<div class="grid-item">#17</div>
+					<div class="grid-item">#18</div>
+					<div class="grid-item">#19</div>
+					<div class="grid-item">#20</div>
+				</div>
+				<a href="#" class="more-link-grid">MORE</a>
+			</section>
+
+			<section class="section blocks-section">
+				#21
+				<div class="blocks-container">
+					<div class="block">#21.1</div>
+					<div class="block">#21.2</div>
+					<div class="block">#21.3</div>
+					<div class="block">#21.4</div>
+					<div class="block">#21.5</div>
+					<div class="block">#21.6</div>
+					<div class="block">#21.7</div>
+					<div class="block">#21.8</div>
+					<div class="block">#21.9</div>
+				</div>
+			</section>
+
+			<script src="./js/main.js"></script>
+		</div>
+	</body>
+</html>
