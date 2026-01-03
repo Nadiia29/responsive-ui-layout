@@ -57,12 +57,15 @@ Just open `index.html` in your browser.
 No build tools or dependencies required.
 
 ---
-
-![Preview](preview.png)
-
+🔗 Live demo:  https://nadiia29.github.io/responsive-ui-layout/
 ---
 
-## 👤 Author
+## 👩‍💻 Author
 
 Frontend Developer  
 HTML / CSS / JavaScript
+---
+
+![Preview](preview.png)
+
+
