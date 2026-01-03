@@ -57,8 +57,6 @@ Just open `index.html` in your browser.
 No build tools or dependencies required.
 
 ---
-🔗 Live demo:  https://nadiia29.github.io/responsive-ui-layout/
----
 
 ## 👩‍💻 Author
 
